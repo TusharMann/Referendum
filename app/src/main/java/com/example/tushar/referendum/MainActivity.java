@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             int Req_Hei = image.getHeight();
 
             Bitmap bitmap = Bitmap.createBitmap(Req_Wid, Req_Hei, Bitmap.Config.ARGB_4444);
-            File file = new File("/Tushar_resume (1).pdf");
+            File file = new File("/OConnor--Spaths FEX.pdf");
 
             PdfRenderer renderer = new PdfRenderer(ParcelFileDescriptor.open(file, ParcelFileDescriptor.MODE_READ_ONLY));
             Matrix m = image.getImageMatrix();
